@@ -8,7 +8,7 @@ A [Chocolatey package] for droidcam-obs-plugin
 
 [droidcam-obs-plugin] © 2020 - 2022 DEV47APPS LTD BC Canada
 
-[OBS]: Open Broadcaster Software © 2012 - 2022 Jim and many other contributors
+[OBS: Open Broadcaster Software] © 2012 - 2022 Jim and many other contributors
 
 ## What is Chocolatey?
 
@@ -54,4 +54,4 @@ Visit the [Chocolatey documentation] to learn more about managing packages.
 [Droidcam]:https://www.dev47apps.com/
 [droidcam-obs-plugin]:https://www.dev47apps.com/obs/#plugin
 [droidcam-obs-plugin-chocolatey]:https://github.com/facorread/droidcam-obs-plugin-chocolatey
-[OBS]:https://obsproject.com/
+[OBS: Open Broadcaster Software]:https://obsproject.com/
