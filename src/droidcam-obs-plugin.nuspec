@@ -5,7 +5,7 @@
     <version>1.3</version>
     <packageSourceUrl>https://github.com/facorread/droidcam-obs-plugin-chocolatey</packageSourceUrl>
     <owners>Fabio A. Correa Duran</owners>
-    <title>dDroidCam OBS Plugin</title>
+    <title>DroidCam OBS Plugin</title>
     <authors>DEV47APPS</authors>
     <projectUrl>https://www.dev47apps.com/obs/#plugin</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/facorread/droidcam-obs-plugin-chocolatey@master/droidcam-obs-plugin.png</iconUrl>
