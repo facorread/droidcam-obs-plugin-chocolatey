@@ -8,7 +8,7 @@
     <title>droidcam-obs-plugin</title>
     <authors>DEV47APPS</authors>
     <projectUrl>https://www.dev47apps.com/obs/#plugin</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/facorread/droidcam-obs-plugin-chocolatey@master/facorread/droidcam-obs-plugin.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/facorread/droidcam-obs-plugin-chocolatey@master/droidcam-obs-plugin.png</iconUrl>
     <copyright>Copyright © 2020 - 2022 DEV47APPS LTD BC Canada</copyright>
     <licenseUrl>https://github.com/dev47apps/droidcam-obs-plugin/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
