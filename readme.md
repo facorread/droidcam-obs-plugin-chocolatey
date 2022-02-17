@@ -1,6 +1,6 @@
 # Readme for droidcam-obs-plugin-chocolatey
 
-A Chocolatey package for droidcam-obs-plugin
+A [Chocolatey package] for droidcam-obs-plugin
 
 [droidcam-obs-plugin-chocolatey] © 2022 Fabio Correa facorread@gmail.com
 
@@ -50,6 +50,7 @@ choco uninstall droidcam-obs-plugin-chocolatey
 Visit the [Chocolatey documentation] to learn more about managing packages.
 
 [Chocolatey documentation]:https://docs.chocolatey.org/en-us/choco/commands/
+[Chocolatey package]:https://github.com/facorread/droidcam-obs-plugin-chocolatey
 [droidcam-obs-plugin]:https://www.dev47apps.com/obs/#plugin
 [droidcam-obs-plugin-chocolatey]:https://community.chocolatey.org/packages/droidcam-obs-plugin
 [OBS]:https://obsproject.com/
