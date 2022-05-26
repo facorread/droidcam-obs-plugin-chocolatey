@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>droidcam-obs-plugin</id>
-    <version>1.5.0.20220427</version>
+    <version>1.5.1</version>
     <packageSourceUrl>https://github.com/facorread/droidcam-obs-plugin-chocolatey</packageSourceUrl>
     <owners>Fabio A. Correa Duran</owners>
     <title>DroidCam OBS Plugin</title>

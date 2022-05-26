@@ -5,10 +5,10 @@ $AhkFile = Join-Path $ToolsDir "install.ahk"
 $packageArgs = @{
   packageName  = 'droidcam-obs-plugin'
   fileType     = 'exe'
-  url          = 'https://files.dev47apps.net/obs/DroidCamOBS.Setup.1.5.0.exe'
+  url          = 'https://files.dev47apps.net/obs/DroidCamOBS.Setup.1.5.1.exe'
   silentArgs   = ''
   softwareName = 'DroidCam OBS Plugin'
-  checksum     = '512f9c2c97ea5d3999108904c7a90e2d2981352d5b179989aaadf53e3167434f73993a4e0b3fa53930f57b805b90284b285a8c5cb861e85eede3161a7e77582c'
+  checksum     = 'D5CC8AB97D1D71914B09E9586CF0205B1E0CB4F77E6752B632DD9CEE7BA5B4F6543CC3CD0B85AD35F9AEE486B9DA02FE11CCA7E01B80413FFA3FEE908690B8E7'
   checksumType = 'sha512'
 }
 
