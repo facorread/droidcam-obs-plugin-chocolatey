@@ -25,9 +25,18 @@ close_all_instances(process_executable) {
     }
 }
 
+patient_process_close(process_executable) {
+    ProcessWaitClose(process_executable, 600)
+    If ProcessExist(process_executable) {
+        ; The testing platform does not like processes that hang
+        ProcessClose(process_executable)
+    }
+}
+
 close_all_instances("obs64.exe")
 WinWait("DroidCam OBS Source Plugin 2.1.0", , 600)
 WinActivate("DroidCam OBS Source Plugin 2.1.0")
 Send "!A!N!I"
 WinWait("DroidCam OBS Source Plugin 2.1.0", "Finish", 600)
 Send "!F"
+patient_process_close("DroidCamOBS.Setup.2.1.0.exe")

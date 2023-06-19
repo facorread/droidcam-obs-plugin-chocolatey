@@ -2,6 +2,11 @@
 $ToolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $AhkFile = Join-Path $ToolsDir "install.ahk"
 
+# The installer does not detect that an instance of OBS is running.
+# Let us ensure a clean install.
+
+Get-Process -Name obs64 -ErrorAction SilentlyContinue | Stop-Process
+
 $autoHotkeyArgs = @{
   FilePath     = 'C:\ProgramData\chocolatey\lib\autohotkey.portable\tools\AutoHotkey.exe'
   ArgumentList = "$ahkFile"
@@ -22,4 +27,4 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-Wait-Process -InputObject $AutoHotKeyProcess
+Wait-Process -InputObject $AutoHotKeyProcess -ErrorAction SilentlyContinue
