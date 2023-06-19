@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>droidcam-obs-plugin</id>
-    <version>1.5.1</version>
+    <version>2.1.0</version>
     <packageSourceUrl>https://github.com/facorread/droidcam-obs-plugin-chocolatey</packageSourceUrl>
     <owners>Fabio A. Correa Duran</owners>
     <title>DroidCam OBS Plugin</title>
@@ -19,8 +19,8 @@
     <bugTrackerUrl>https://github.com/dev47apps/droidcam-obs-plugin/issues</bugTrackerUrl>
     <releaseNotes>https://github.com/dev47apps/droidcam-obs-plugin/releases</releaseNotes>
     <dependencies>
-      <dependency id="obs-studio" version="25.0.0" />
-      <dependency id="autohotkey" version="1.1.33.00" />
+      <dependency id="obs-studio" version="29.1.2" />
+      <dependency id="autohotkey.portable" version="2.0.2" />
     </dependencies>
   </metadata>
   <files>
