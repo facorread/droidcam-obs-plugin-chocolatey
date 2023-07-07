@@ -20,7 +20,7 @@
     <releaseNotes>https://github.com/dev47apps/droidcam-obs-plugin/releases</releaseNotes>
     <dependencies>
       <dependency id="obs-studio" version="29.1.2" />
-      <dependency id="autohotkey.portable" version="2.0.2" />
+      <dependency id="autohotkey.install" version="1.1.37" />
     </dependencies>
   </metadata>
   <files>
