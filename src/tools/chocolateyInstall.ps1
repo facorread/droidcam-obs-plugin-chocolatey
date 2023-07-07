@@ -4,11 +4,12 @@ $Global:ErrorActionPreference = 'Stop'
 $Global:InformationPreference = 'Continue'
 $Global:VerbosePreference     = 'Continue'
 
+Set-StrictMode -Version 3.0
+
 # The installer does not detect that an instance of OBS is running.
 # Let us ensure a clean install.
 
 Get-Process -Name obs64 -ErrorAction SilentlyContinue | Stop-Process
-Write-Verbose "Running $($AutoHotKeyProcess.ProcessName)"
 
 $autoHotkeyArgs = @{
     FilePath     = Get-ChocolateyPath -PathType InstallPath | Join-Path -ChildPath "lib\autohotkey.portable\tools\AutoHotkey.exe"
@@ -17,6 +18,7 @@ $autoHotkeyArgs = @{
 }
 
 $AutoHotKeyProcess = Start-Process @autoHotkeyArgs
+Write-Verbose "Running $($AutoHotKeyProcess.ProcessName)"
 
 $packageArgs = @{
     packageName  = 'droidcam-obs-plugin'
