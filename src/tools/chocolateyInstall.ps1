@@ -1,4 +1,4 @@
-﻿$PackageVersion = "2.3.0"
+﻿$PackageVersion = "2.3.2"
 
 $Global:ErrorActionPreference = 'Stop'
 $Global:InformationPreference = 'Continue'
@@ -26,7 +26,7 @@ $packageArgs = @{
     url          = "https://github.com/dev47apps/droidcam-obs-plugin/releases/download/$($PackageVersion)/DroidCamOBS.Setup.$($PackageVersion).exe"
     silentArgs   = ''
     softwareName = 'DroidCam OBS Plugin'
-    checksum     = '5505697F9445561428A62C92B29C5E523BCAE09A00086E22A09156F51BCA5CEE61502396F24C346C841CF05445B0804BD99795F6562D43E29507534B6B776D6A'
+    checksum     = '866F097017D656A4ECCE9A7F65B159825909FEA5EEA38F726FE4CDE2D3BC75B70ADDCA09C138F8D3050A97CC855A05B9035B842D4280CCAF8D54E33D7F4AC64F'
     checksumType = 'sha512'
     UseOnlyPackageSilentArguments = $true
 }
