@@ -34,9 +34,9 @@ patient_process_close(process_executable) {
 }
 
 close_all_instances("obs64.exe")
-WinWait("DroidCam OBS Source Plugin 2.1.0", , 600)
-WinActivate("DroidCam OBS Source Plugin 2.1.0")
+WinWait("DroidCam OBS Source Plugin 2.3.0", , 600)
+WinActivate("DroidCam OBS Source Plugin 2.3.0")
 Send "!A!N!I"
-WinWait("DroidCam OBS Source Plugin 2.1.0", "Finish", 600)
+WinWait("DroidCam OBS Source Plugin 2.3.0", "Finish", 600)
 Send "!F"
-patient_process_close("DroidCamOBS.Setup.2.1.0.exe")
+patient_process_close("DroidCamOBS.Setup.2.3.0.exe")
